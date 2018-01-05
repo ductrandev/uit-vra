@@ -2,14 +2,16 @@
 
 - Cần cài đặt Matlab 2016 trở lên
 
+- Tải và cài đặt VLFeat cho Matlab theo hướng dẫn tại: http://www.vlfeat.org/install-matlab.html
+
 - Tải bộ dữ liệu Oxford Buiding Dataset tại http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/index.html,
 giải nét copy hết file ảnh dữ liệu vào thư mục dataset
-
-- Tải và cài đặt VLFeat cho Matlab theo hướng dẫn tại: http://www.vlfeat.org/install-matlab.html
 
 *** Trong file IRDemo.m, hàm function pushbutton2_Callback, thiết lập lại các giá trị cấu hình cho phù hợp:
  + vl_feat: đường dẫn đến thư mục thư viện vlfead 
  + data_path: đường đẫn đến thư mục dataset
+
+- Mở Matlab, trỏ đến thư mục chứa source code.
 
 - Trong command window của matlab, chạy lệnh IRDemo() --> giao diện ứng dụng demo sẽ xuất hiện.
 
